@@ -39,11 +39,8 @@ export default function CTA() {
             className="bg-white text-primary px-8 py-4 rounded-lg font-bold hover:bg-white/90 transition transform hover:scale-105 flex items-center justify-center space-x-2 group"
           >
             <Phone size={20} />
-            <span>Call: +91 913-718-2658</span>
+            <span>Call: +91 9137182658</span>
           </a>
-          <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition">
-            Schedule Consultation
-          </button>
         </div>
       </div>
     </section>

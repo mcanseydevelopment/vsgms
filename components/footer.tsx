@@ -11,10 +11,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">VS</span>
-              </div>
-              <span className="font-bold text-xl">VSGMS</span>
+              </div> */}
+              <span className="font-bold text-2 xl">VSGMS</span>
             </div>
             <p className="text-white/70">Elevating digital presence across industries</p>
           </div>
@@ -80,13 +80,13 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone size={18} />
                 <a href="tel:9137182658" className="text-white/70 hover:text-white transition">
-                  +91 913-718-2658
+                  +91 9137182658
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={18} />
-                <a href="mailto:contact@vsgms.com" className="text-white/70 hover:text-white transition">
-                  contact@vsgms.com
+                <a href="mailto:info@vsgms.com" className="text-white/70 hover:text-white transition">
+                  info@vsgms.com
                 </a>
               </li>
             </ul>

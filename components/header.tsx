@@ -11,10 +11,10 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+          {/* <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">VS</span>
-          </div>
-          <span className="font-bold text-xl hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          </div> */}
+          <span className="font-bold text-2xl hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             VSGMS
           </span>
         </Link>
@@ -33,9 +33,9 @@ export default function Header() {
           <Link href="#testimonials" className="text-foreground hover:text-primary transition">
             Testimonials
           </Link>
-          <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition font-semibold">
+          <a href="tel:9137182658" className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition font-semibold">
             Contact
-          </button>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}

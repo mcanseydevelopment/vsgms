@@ -14,9 +14,7 @@ export default function Header() {
           {/* <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">VS</span>
           </div> */}
-          <span className="font-bold text-2xl hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            VSGMS
-          </span>
+          <img src="/logo.png" alt="VSGMS logo" className="w-40 h-15 rounded-lg object-cover" />
         </Link>
 
         {/* Desktop Menu */}

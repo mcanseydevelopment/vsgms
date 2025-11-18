@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Phone } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -85,6 +85,12 @@ export default function Footer() {
                 <a href="mailto:info@vsgms.com" className="text-white/70 hover:text-white transition">
                   info@vsgms.com
                 </a>
+              </li>
+              <li className="flex items-center gap-2 min-w-0">
+                <MapPin size={18} className="shrink-0" />
+                <span className="text-white/70 hover:text-white transition wrap-break-word">
+                  F002, SONAM ABHINAV, MIRA BHAYANDAR – 401105 MUMBAI
+                </span>
               </li>
             </ul>
           </div>
